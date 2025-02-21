@@ -60,3 +60,5 @@ ticketRouter.delete('/:ticketId', authMiddleware, async (req, res) => {
 });
 
 module.exports = ticketRouter;
+
+console.log("charge")
